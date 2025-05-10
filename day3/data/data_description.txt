@@ -1,0 +1,83 @@
+Location & Basic Property Info:
+
+MSSubClass: What kind of house is it? (e.g., 1-story, 2-story, duplex). Different styles can have different values.
+MSZoning: What is the area zoned for? (e.g., residential, commercial). Where a house is located greatly affects its price.
+LotFrontage: How much street access does the property have (in feet)? More frontage might be desirable.
+LotArea: How big is the lot (in square feet)? Bigger lots can mean higher prices.
+Street: Is the road access gravel or paved? Paved is generally better.
+Alley: Is there alley access? If so, what type (gravel, paved)? Could be a convenience factor.
+LotShape: What's the general shape of the property? Regular shapes might be easier to build on or landscape.
+LandContour: How flat is the property? Level land is often preferred.
+Utilities: What basic services are available? (e.g., all public utilities, just electricity). More utilities usually increase value.
+LotConfig: Where is the lot situated relative to others? (e.g., corner lot, cul-de-sac). Some configurations are more desirable.
+LandSlope: How steep is the property? Gentle slopes are usually better.
+Neighborhood: Which specific area in Ames is the house located in? Different neighborhoods have different average prices.
+Condition1 & Condition2: What are the immediate surroundings like? (e.g., near a main road, near a park). This can be positive or negative.
+House Structure & Style:
+
+BldgType: What type of dwelling is it? (e.g., single-family, duplex, townhouse). Different types have different market values.
+HouseStyle: What's the architectural style of the house? (e.g., one-story, two-story, split foyer). Style can influence appeal.
+OverallQual: A general rating of how good the materials and finishes are (from very poor to very excellent). This is a big one!
+OverallCond: A general rating of the house's condition (from very poor to very excellent). Also very important.
+YearBuilt: When was the house originally built? Newer houses often command higher prices.
+YearRemodAdd: When was the house last remodeled or had additions? Recent updates can increase value.
+RoofStyle: What kind of roof does it have? (e.g., gable, hip). Style and perceived quality can matter.
+RoofMatl: What material is the roof made of? Some materials are more durable or expensive.
+Exterior1st & Exterior2nd: What materials are on the outside of the house? Different materials have different costs and aesthetics.
+MasVnrType: What type of masonry veneer (like brick or stone) is there? Can add to curb appeal and value.
+MasVnrArea: How much area does the masonry veneer cover (in square feet)?
+Interior Features:
+
+ExterQual: How good is the quality of the exterior materials?
+ExterCond: What's the current condition of the exterior materials?
+Foundation: What type of foundation does the house have? Different types can have different costs and stability.
+BsmtQual: How tall is the basement? Higher basements are generally more desirable.
+BsmtCond: What's the general condition of the basement? (e.g., damp, cracked).
+BsmtExposure: Does the basement have walkout or garden-level walls? More exposure can mean more usable space and light.
+BsmtFinType1 & BsmtFinType2: What's the quality of the finished areas in the basement? (e.g., good living quarters, unfinished).
+BsmtFinSF1 & BsmtFinSF2: How many square feet of each type of finished basement area are there?
+BsmtUnfSF: How many unfinished square feet are in the basement?
+TotalBsmtSF: The total square footage of the basement.
+Heating: What type of heating system does it have? (e.g., gas forced air).
+HeatingQC: How good is the heating quality and condition?
+CentralAir: Does it have central air conditioning? A big selling point in many areas.
+Electrical: What kind of electrical system is installed? More modern systems are safer and can handle more appliances.
+1stFlrSF: Square footage of the first floor.
+2ndFlrSF: Square footage of the second floor.
+LowQualFinSF: Square footage of any low-quality finished areas (on any floor).
+GrLivArea: Total above-ground living area in square feet. A key factor in price.
+BsmtFullBath & BsmtHalfBath: Number of full and half bathrooms in the basement.
+FullBath & HalfBath: Number of full and half bathrooms above ground.
+Bedroom: Number of bedrooms above ground.
+Kitchen: Number of kitchens above ground (usually 1).
+KitchenQual: How good is the quality of the kitchen?
+TotRmsAbvGrd: Total number of rooms above ground (not including bathrooms).
+Functional: How functional is the home? (e.g., typical, minor deductions).
+Other Features & Spaces:
+
+Fireplaces: Number of fireplaces.
+FireplaceQu: Quality of the fireplaces.
+GarageType: Where is the garage located? (e.g., attached, detached, basement).
+GarageYrBlt: When was the garage built?
+GarageFinish: How finished is the inside of the garage?
+GarageCars: How many cars can fit in the garage?
+GarageArea: Size of the garage in square feet.
+GarageQual: Quality of the garage.
+GarageCond: Condition of the garage.
+PavedDrive: Is the driveway paved?
+WoodDeckSF: Area of any wood deck in square feet.
+OpenPorchSF: Area of any open porch in square feet.
+EnclosedPorch: Area of any enclosed porch in square feet.
+3SsnPorch: Area of any three-season porch in square feet.
+ScreenPorch: Area of any screened porch in square feet.
+PoolArea: Area of any pool in square feet.
+PoolQC: Quality of the pool.
+Fence: Quality of any fencing.
+MiscFeature: Any other unusual features not covered (e.g., elevator, tennis court).
+MiscVal: Value of the miscellaneous feature.
+Sale Information:
+
+MoSold: The month the house was sold.
+YrSold: The year the house was sold. Market conditions can change over time.
+SaleType: What kind of sale was it? (e.g., warranty deed, new home).
+SaleCondition: What was the condition of the sale? (e.g., normal, abnormal like foreclosure).
