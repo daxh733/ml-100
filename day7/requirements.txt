@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+numpy
+pandas
+nltk
+joblib
+wordcloud # If you use word clouds in app.py for some reason, though typically not needed for the live app.
+matplotlib # If you use plotting in app.py
+seaborn # If you use plotting in app.py
